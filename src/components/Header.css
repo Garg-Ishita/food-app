@@ -1,0 +1,97 @@
+.header{
+    color:aliceblue;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    font-size:22px;
+    font-weight: 400;
+    box-shadow: 0 3px 6px 0 rgb(244, 253, 253);
+    align-items: center;
+    justify-content: space-between;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    width:auto;
+    z-index:10;
+}
+
+.mainpic{
+    width:50px;
+    height:50px;
+    margin:10px;
+}
+
+.searchimg{
+    margin:5px;
+    width:40px;
+    height:40px;
+    margin-right: 15px;
+    background-color: transparent;
+    padding: 5px;
+    
+}
+
+.appname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.searchname{
+    display: flex;
+    align-items: center;
+    /* margin-right: 60px; */
+    margin:auto;
+}
+
+.input{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    padding:5px;
+    border: none transparent; outline: none;
+    font-size: 15px;
+    /* margin:2px; */
+
+}
+
+.input:focus{
+    border: none transparent; outline: none;
+   background-color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .input {
+      width: 200px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .darkpara {
+        color:black;
+    }
+   
+
+  }
+.dark{
+    /* width:20px; */
+    height:30px;
+    padding:5px;
+     margin:5px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color: white;
+    border:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+
+
+.darkmode{
+    display: flex;
+    flex-direction: row;
+
+}

@@ -1,0 +1,87 @@
+.recipeListContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   flex-wrap: wrap;
+}
+
+
+.outerbox{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    align-items: center;
+    justify-content: space-evenly;
+    border:1px solid black;
+    width:300px;
+    border-radius: 10px;
+    margin:10px;
+    background-color: white;
+}
+
+.outerbox:hover{
+    box-shadow: 5px 5px 10px 0px lightcyan;
+}
+
+
+.foodPic{
+    width:250px;
+    height:250px;
+    border-radius: 150px;
+    border: 1 px solid black;
+    box-shadow: 0px 4px 5px 0px lightgray;
+}
+
+.recipeName{
+    font-size: 20px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:5px;
+    
+}
+
+/* .ingredients{
+    width:250px;
+    height:30px;
+    background-color: transparent;
+    border:1px solid rgb(91, 165, 221);
+    border-radius: 10px;
+    margin:5px;
+    font-size: 18px;
+    cursor: pointer;
+    color:rgb(15, 75, 121);
+    font-weight: 300;
+}
+
+.ingredients:hover{
+   background-color: rgb(91, 165, 221);
+   color: white;
+   font-weight: 200;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px 0px lightgray;
+} */
+.details{
+    width:250px;
+    height:30px;
+    background-color: transparent;
+    /* background: -webkit-linear-gradient(#b6f0f9, #83eec8); */
+    border:1px solid black;
+    border-radius: 10px;
+    margin:5px;
+    font-size: 18px;
+    cursor: pointer;
+    color:black;
+
+    font-weight: 300;
+}
+
+.details:hover{
+    background: -webkit-linear-gradient(#cdf1f7, #c3fbe8);
+    /* color: white; */
+    color:black;
+    font-weight: 200;
+     cursor: pointer;
+     box-shadow: 0px 4px 5px 0px lightgray;
+ }

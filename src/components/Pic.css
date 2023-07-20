@@ -1,0 +1,19 @@
+.mainpiconstay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    margin:auto;
+    padding:20px;
+    /* opacity: 0.2; */
+    margin-top: 50px;
+    background-color: transparent;
+   
+}
+
+.piccy{
+    width:200px;
+    height:200px;
+    background-color: transparent;
+    border-radius: 10px;
+}
